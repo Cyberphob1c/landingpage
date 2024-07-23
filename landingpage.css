@@ -1,0 +1,166 @@
+/* Universal settings */
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: wrap column;
+}
+
+a:link {
+    color:black;
+}
+
+a:hover {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Universal settings above*/
+
+
+/* header stuff below */
+
+.headercontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    flex: 1;
+    justify-content: space-around;
+    height: fit-content;
+    padding: 20px;
+    padding-top: 5px;
+}
+
+
+.headerlinkscontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.leftlinks {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.leftlinks a:hover {
+    color: orange;
+}
+
+.leftlinks a{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+.rightlinks {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.rightlinks a:hover{
+    color: orange;
+}
+
+.rightlinks a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+.headerinformationcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    flex: 1 1 0;
+}
+
+.headerleftcontainer {
+    display: flex;
+    flex-flow: wrap row;
+    padding: 10px;
+    width: 40%;
+}
+
+.headerimage {
+    display: flex;
+    width: 400px;
+    height: auto;
+}
+
+.lefttitle {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.headersecondarytext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 2px 0px;
+}
+
+.signup {
+    padding: 3px 10px;
+    
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    
+}
+
+.signup a{
+    color: #F9FAF8;
+}
+
+.signup a:hover{
+    color: orange;
+}
+
+/* header stuff above */
+
+/* second section stuff below */
+
+.secondsectioncontainer {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: space-around;
+}
+
+.secondtitle {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: center;
+    align-items: flex-start;
+
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+
+}
+
+.webpagescontainer {
+    display: flex;
+    flex-flow: nowrap row;
+    flex: 1;
+}
+
+.webpagesimages {
+    width: 200px;
+    height: auto;
+    flex-wrap: wrap;
+}
