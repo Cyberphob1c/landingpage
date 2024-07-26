@@ -11,6 +11,10 @@ body {
     flex-flow: wrap column;
 }
 
+.bottomsignup a {
+    color: white;
+}
+
 a:link {
     color:black;
 }
@@ -107,8 +111,9 @@ a {
     color: #F9FAF8;
 }
 
+.bannersecondarytext,
 .headersecondarytext {
-    font-size: 18px;
+    font-size: 16px;
     color: #E5E7EB;
     margin: 2px 0px;
 }
@@ -118,7 +123,8 @@ a {
     
     background-color: #3882F6;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
+    margin: 5px;
     
 }
 
@@ -137,15 +143,19 @@ a {
 .secondsectioncontainer {
     display: flex;
     flex-direction: column;
-    height: 400px;
-    justify-content: space-around;
+    height: fit-content;
+    padding: 50px 0px;
+
+    
 }
 
 .secondtitle {
     display: flex;
-    flex-flow: nowrap row;
-    justify-content: center;
-    align-items: flex-start;
+    flex-flow: nowrap column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 0px 35px 0px;
+    justify-self: flex-start;
 
     font-size: 36px;
     font-weight: bold;
@@ -155,12 +165,103 @@ a {
 
 .webpagescontainer {
     display: flex;
-    flex-flow: nowrap row;
+    flex-flow: wrap row;
     flex: 1;
+    gap: -8px;
 }
 
 .webpagesimages {
     width: 200px;
     height: auto;
+}
+
+.containerone,
+.containertwo,
+.containerthree,
+.containerfour {
+    display: flex;
+    flex-flow: wrap column;
+    text-align: center;
+    align-items: center;
+    
+    justify-content: center;
+    gap: 8px;
+    width: fit-content;
+    height: auto;
+    flex: 1 1 auto;
+
+}
+
+
+.thirdsection {
+    display: flex;
+    flex-flow: wrap column;
+    padding: 65px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+span {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+
+.fourthsectioncontainer {
+    display: flex;
+    flex-flow: wrap column;
+    padding: 40px;
+    margin: 40px
+
+}
+
+.signupbannercontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+
+    background-color: #3882F6;
+    padding: 60px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+
+    font-size: 20px;
+}
+
+.bottomsignup {
+    background-color: #3882F6;
+    border: 2px solid white;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+
+.bannersecondarytext {
+    display: flex;
+    margin-right: 5px;
     flex-wrap: wrap;
+
+}
+
+.footercontainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+    color: white;
+
+    justify-content: space-around;
+    height: fit-content;
+    padding: 20px;
+
 }
